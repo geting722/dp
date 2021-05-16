@@ -2,6 +2,7 @@
 题目链接：https://codeforces.com/problemset/problem/1519/D
 题意：反转数组内任意一段，使得a[i]*b[i]的总和最大
 思路：
+区间dp枚举每一段的值
 d[i][j]代表i到j这个部分反转所得到的值
 在最后找最大值时还需要一个前缀和的数组
 */
