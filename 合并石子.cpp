@@ -24,7 +24,7 @@ sum[i]表示前i堆的和
 第一层枚举长度
 第二层枚举起点
 第三层枚举分裂点
-转移方程为dp[j][end]=max(dp[j][end],dp[j][k]+dp[k+1][end]+sum[end]-sum[j-1])
+状态转移方程为dp[j][end]=max(dp[j][end],dp[j][k]+dp[k+1][end]+sum[end]-sum[j-1])
 */
 #include <bits/stdc++.h>
 using namespace std;
